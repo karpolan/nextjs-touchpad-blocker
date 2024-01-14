@@ -1,4 +1,4 @@
-# KEYBOARD-LEDS.COM - built with NextJS
+# TOUCHPAD-BLOCKER.COM - built with NextJS
 
 Mix of [Create Next App](https://nextjs.org/docs/pages/api-reference/create-next-app) with set of reusable components and utilities to build professional NextJS application faster.
 

@@ -19,7 +19,7 @@ const BlockPingNotifyInfo: FunctionComponent<Props> = ({ slug }) => {
         {APP_NAME} - PingNotify - {event}
       </h1>
       <p>
-        <Link href="/">{APP_NAME}</Link> opens this page to notify <Link href="/">KEYBOARD-LEDS.COM</Link> web server
+        <Link href="/">{APP_NAME}</Link> opens this page to notify <Link href="/">TOUCHPAD-BLOCKER.COM</Link> web server
         about &quot;{event}&quot; event. Collecting of some statistic data helps us to make {APP_NAME} better.
       </p>
       <p>

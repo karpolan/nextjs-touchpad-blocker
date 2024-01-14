@@ -7,7 +7,7 @@ export const IS_PRODUCTION = getCurrentEnvironment() === 'production'; // Enable
 
 export const PUBLIC_URL = envRequired(process.env.NEXT_PUBLIC_PUBLIC_URL);
 
-export const APP_NAME = 'Keyboard LEDs';
-export const APP_SHORT_NAME = 'KeyLeds';
-export const APP_VERSION = '2.7.1.59';
-export const APP_VER = '2.7';
+export const APP_NAME = 'Touchpad Blocker';
+export const APP_SHORT_NAME = 'Touch Blocker';
+export const APP_VERSION = '3.0.0.71';
+export const APP_VER = '3.0';

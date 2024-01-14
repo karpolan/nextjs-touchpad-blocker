@@ -1,4 +1,4 @@
-This is the End User License Agreement (the "Agreement") is a legal agreement between you, the end-user ("Licensee"), and KARPOLAN, the manufacturer and the copyright owner ("Owner"), for the use of the "Keyboard LEDs" aka "Keyboard Indicators" aka "Key Leds" software product ("Software"). 
+This is the End User License Agreement (the "Agreement") is a legal agreement between you, the end-user ("Licensee"), and KARPOLAN, the manufacturer and the copyright owner ("Owner"), for the use of the "Touchpad Blocker" aka "Block Touchpad" software product ("Software"). 
 
 By using this Software or storing this program on a computer drive (or other media), you are agreeing to be bound by the terms of this Agreement. If you do not agree with the terms of this Agreement, please remove this Software from your system. 
 

@@ -10,7 +10,7 @@ const TermsAndConditionsPage = () => {
       <Typo variant="header1">Terms and Conditions</Typo>
 
       <Typo variant="paragraph">
-        Welcome to the <strong>KEYBOARD-LEDS.COM</strong> website (&quot;Site&quot;). This Site is a property of{' '}
+        Welcome to the <strong>TOUCHPAD-BLOCKER.COM</strong> website (&quot;Site&quot;). This Site is a property of{' '}
         <strong>
           <Link href="https://karpolan.com">KARPOLAN</Link>
         </strong>{' '}

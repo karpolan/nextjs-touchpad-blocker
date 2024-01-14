@@ -42,19 +42,19 @@ const NewsPage = () => {
           <Link href="/2012/09/13/f-lock-indicator/">2021-09-13 - F-Lock Keyboard Indicator</Link>
         </li>
         <li>
-          <Link href="/2012/07/10/keyboard-leds-2-7/">2012-06-10 - Keyboard LEDs 2.7</Link>
+          <Link href="/2012/07/10/touchpad-blocker-2-7/">2012-06-10 - Keyboard LEDs 2.7</Link>
         </li>
         <li>
-          <Link href="/2012/02/03/keyboard-leds-2-5/">2012-02-03 - Keyboard LEDs 2.5</Link>
+          <Link href="/2012/02/03/touchpad-blocker-2-5/">2012-02-03 - Keyboard LEDs 2.5</Link>
         </li>
         <li>
           <Link href="/2012/01/21/video-demo/">2012-01-21 - Video demo</Link>
         </li>
         <li>
-          <Link href="/2011/12/19/keyboard-leds-2-3/">2011-12-19 - Keyboard LEDs 2.3</Link>
+          <Link href="/2011/12/19/touchpad-blocker-2-3/">2011-12-19 - Keyboard LEDs 2.3</Link>
         </li>
         <li>
-          <Link href="/2011/11/25/keyboard-leds-2-1/">2011-11-25 - Keyboard LEDs 2.1</Link>
+          <Link href="/2011/11/25/touchpad-blocker-2-1/">2011-11-25 - Keyboard LEDs 2.1</Link>
         </li>
         <li>
           <Link href="/2011/10/01/false-antivirus-alert/">2011-10-01 - False antivirus alert</Link>
@@ -63,10 +63,10 @@ const NewsPage = () => {
           <Link href="/2011/10/01/legal-documents-added/">2011-10-01 - Legal documents added</Link>
         </li>
         <li>
-          <Link href="/2011/09/23/keyboard-leds-2-0/">2011-09-23 - Keyboard LEDs 2.0</Link>
+          <Link href="/2011/09/23/touchpad-blocker-2-0/">2011-09-23 - Keyboard LEDs 2.0</Link>
         </li>
         <li>
-          <Link href="/2011/08/27/keyboard-leds-1-5/">2011-08-27 - Keyboard LEDs 1.5</Link>
+          <Link href="/2011/08/27/touchpad-blocker-1-5/">2011-08-27 - Keyboard LEDs 1.5</Link>
         </li>
         <li>
           <Link href="/2011/08/27/gravatars-are-cool/">2011-08-27 - Gravatars are Cool!</Link>

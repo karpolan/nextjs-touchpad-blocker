@@ -39,7 +39,7 @@ const SingleSoftwarePage: NextPage<Props> = async ({ params: { software } }) => 
       <Typo variant="paragraph">
         An excellent substitute for {title} software is the{APP_NAME} program. Various{' '}
         <Link href="/software/">alternative software to {title}</Link>, both free and commercial, can be found on the
-        KEYBOARD-LEDS.COM website, along with a detailed comparison of these utilities and the {title} program.
+        TOUCHPAD-BLOCKER.COM website, along with a detailed comparison of these utilities and the {title} program.
       </Typo>
 
       <Typo variant="header2">Alternate software to {title}</Typo>
@@ -51,7 +51,7 @@ const SingleSoftwarePage: NextPage<Props> = async ({ params: { software } }) => 
       <Typo variant="paragraph">
         Additionally, consider exploring the {APP_NAME} software, an excellent alternative to replace the {title}{' '}
         utility. You can <Link href="/download/">download the free copy of {APP_NAME}</Link> directly from the
-        KEYBOARD-LEDS.COM website.
+        TOUCHPAD-BLOCKER.COM website.
       </Typo>
     </Wrapper>
   );

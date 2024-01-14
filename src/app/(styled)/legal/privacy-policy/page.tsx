@@ -153,7 +153,7 @@ const PrivacyPolicyPage = () => {
         <li>
           Using online <Link href="/contact">contact form</Link>
         </li>
-        <li>Via email support(at)keyboard-leds[dot]com</li>
+        <li>Via email support(at)touchpad-blocker[dot]com</li>
         <li>Post mail to Ozerna 28, 81, Kyiv 04209, UKRAINE</li>
       </Typo>
     </Wrapper>

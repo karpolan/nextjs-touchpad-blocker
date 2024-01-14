@@ -6,11 +6,11 @@ import Stack, { StackProps } from '../Stack/Stack';
 
 export const SOCIAL_MEDIA: ObjectPropByName = {
   facebook: {
-    href: 'https://www.facebook.com/KeyLeds',
+    href: 'https://www.facebook.com/TouchpadBlocker/',
     title: `Follow ${APP_NAME} on Facebook`,
   },
   twitter: {
-    href: 'https://twitter.com/KeyLeds',
+    href: 'https://twitter.com/TouchpadBlocker',
     title: `Follow ${APP_NAME} on Twitter`,
   },
   linkedin: {

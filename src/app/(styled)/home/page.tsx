@@ -8,7 +8,7 @@ import { useMemo } from 'react';
 
 export const metadata = {
   alternates: {
-    canonical: 'https://keyboard-leds.com', // TODO: Make CANONICAL_ROOT configurable in .env
+    canonical: 'https://touchpad-blocker.com', // TODO: Make CANONICAL_ROOT configurable in .env
   },
 };
 

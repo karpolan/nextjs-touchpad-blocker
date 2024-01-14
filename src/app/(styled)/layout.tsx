@@ -7,9 +7,9 @@ import { Advertising, Analytics, Footer, Header, MobileOrDesktop } from '@/layou
 
 export const metadata: Metadata = {
   metadataBase: new URL(PUBLIC_URL),
-  title: APP_NAME, // 'Keyboard LEDs',
+  title: APP_NAME, // 'Touchpad Blocker',
   description:
-    'Free software shows state of Num, Caps and Scroll locks. Very useful for notebooks and keyboards that have no hardware LED indicators.',
+    'Free software automatically blocks accidental taps and clicks when the user is typing text on a notebook keyboard.',
   manifest: '/site.webmanifest',
   openGraph: OPEN_GRAPH_DEFAULT,
 };

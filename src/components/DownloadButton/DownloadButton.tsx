@@ -5,8 +5,8 @@ import { gaPageView } from '@/lib/ga';
 import Button, { ButtonProps } from '../Button/Button';
 
 const FILES = {
-  exe: '/files/keyboard-leds.exe',
-  zip: '/files/keyboard-leds.zip',
+  exe: '/files/touchpad-blocker.exe',
+  zip: '/files/touchpad-blocker.zip',
 };
 
 interface Props extends ButtonProps {

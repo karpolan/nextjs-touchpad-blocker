@@ -1,28 +1,27 @@
 ================================================================
-Keyboard LEDs
+Touchpad Blocker
 Copyright (c) KARPOLAN. All Rights Reserved.
-https://keyboard-leds.com 
-mailto:support@keyboard-leds.com
+https://touchpad-blocker.com
+mailto:support@touchpad-blocker.com
 ================================================================
 
 
 Description
 ===========
 
-Program shows state of Num, Caps and Scroll locks in the tray icon, on the floating screen, by sound notification. Very useful for notebooks and wireless keyboards that have no LED indicators. Also software allows the user to switch any keyboard lock on computers without hardware buttons (MacBook for example).
+The program blocks accidental clicks while typing on a notebook keyboard. It can also enable and disable touchpad using a keyboard shortcut.
 
 
 System Requirements
 ===================
 
- * Any 32 or 64 bit version of Windows. Systems prior Windows 2000 are partially supported.
- * 2MB of free disk space.
+ * Any 32 or 64 bit version Windows
 
 
 Installation and Setup
 ======================
 
-To install the program, download and run the setup package. Follow the instructions of the installation wizard. It's easy.
+To install the program, download and run the installation package. Follow the instructions of the installation wizard. It's easy.
 
 
 Distribution
@@ -34,46 +33,49 @@ This Software may be distributed freely through on-line services, bulletin board
 Version History 
 ===============
 
-July 10, 2012. (Version 2.7)
-Added option to disable Internet features (updates, PingNotify(tm) statistics, etc.) Memory consumption improved. 
+April 12, 2016. (Version 3.0)
+New major update. Windows 10 compatibility improved. Default time interval to block clicks changed to 1 second.
 
-February 3, 2012. (Version 2.5)
-OSD appears faster. OSD sizes are changed to be bigger by default. Tray Icon grid color is changed to be visible on white background. Some other minor changes. 
+April 17, 2015. (Version 2.9)
+Fixed issue with on-screen keyboard. Mouse Up events are not blocked anymore.
 
-December 16, 2011. (Version 2.3)
-OSD always fits the screen area and semitransparent by default. Animated OSD disappearing for auto-hide mode added. No more multiple beeps when a lock button is pressed and held. PingNotify(tm) event tracking restricted to few times per day. Google+ social icon added. Installer and unistaller improved.
+September 7, 2012. (Version 2.7)
+Fixed disappearance of tray icon. Some social icons removed.
 
-November 11, 2011. (Version 2.1)
-Fixed unexpected hiding of the OSD while dragging with mouse. Tray Icon tooltip shows the program version. Added PingNotify(tm) events tracking. Fixed UAC elevation of program run from the installer.
+July 11, 2012. (Version 2.5)
+Added option to disable Internet features (updates, PingNotify(tm) statistics, etc.) Fixed freezing on system logon. Memory consumption improved. 
 
-September 29, 2011. (Version 2.0)
-Added option to automatically hide the OSD. Added buttons and menu items to switch keyboard locks by mouse. The OSD has a popup menu, double click opens the settings window. Fixed losing of input focus when the OSD appears first time. Decreased memory consumption. KEYBOARD-LEDS.COM website has been started.
+February 1, 2012. (Version 2.3) 
+Keyboard and mouse hooks are periodically reset to prevent unusual terminations. Lower memory consumption. PingNotify(tm) event tracking restricted to few times per day. Google+ social icon added. Installer and unistaller improved.
 
-July 14, 2011. (Version 1.5)
-OSD size and color bug fixed. Fixed a periodical losing of lock state changing. New program icon and about screen. 
+November 27, 2011. (Version 2.1) 
+Default time interval to block clicks changed to 1/2 second. The bug with an unexpected disabling of the blocking feature fixed. The same timings are set for all kinds of balloon notifications.
 
-May 16, 2011. (Version 1.3)
-Beep on switch feature added. Automatically activates a running copy of program on a second start. Decreased file size and memory consumption.
+November 17, 2011. (Version 2.0)
+New, more user-friendly interface. Blocking time format changed from milliseconds to seconds. Option to block move and wheel events added. Ability to enable and disable touchpad device (for Synaptics only) added. PingNotiry(tm) event tracking added.
 
-October 11, 2010. (Version 1.1)
-Size of On Screen Display can be changed. Fixed bug when controls disappear under Windows Vista/7. New color schema for the Tray Icon indicator by default. Background color of Tray Icon's preview is taken from system tray. Social media icons are added.
+October 24, 2011. (Version 1.7)
+Automatically activates a running copy of program on a second start. Decreased file size and memory consumption. New program icon. TOUCHPAD-BLOCKER.COM site started.
 
-July 14, 2010. (Version 1.0)
-First public release
+March 10, 2011. (Version 1.5)
+A blocked clicks counter added. Mouse events blocking improved and optimized.
 
-July 5, 2010. (Version 0.5)
-Floating On Screen Display has been added. New color scheme by default.
+December 17, 2010. (Version 1.3)
+Added option to hide or show system notifications (balloons).
 
-July 2, 2010. (Version 0.3)
-Color of grid is customizable. Fixed uninstaller issue.
+December 7, 2010. (Version 1.2)
+Threshold increased to 500 milliseconds by default. File size is smaller. Fixed bug under Windows 7 when controls disappear if the user holds Alt key.
 
-June 30, 2010. (Version 0.1)
-Crazy night alpha release.
+September 17, 2010. (Version 1.1)
+Added balloon tips notification. Control's tab order is fixed.
+
+September 9, 2010. (Version 1.0)
+First public release.
 
 
 ================================================================
-Keyboard LEDs
+Touchpad Blocker
 Copyright (c) KARPOLAN. All Rights Reserved.
-https://keyboard-leds.com 
-mailto:support@keyboard-leds.com
+https://touchpad-blocker.com
+mailto:support@touchpad-blocker.com
 ================================================================

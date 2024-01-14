@@ -1,7 +1,7 @@
 {
-  "name": "Keyboard LEDs",
-  "short_name": "KeyLeds",
-  "description": "Free software shows state of Num, Caps and Scroll locks",
+  "name": "Touchpad Blocker",
+  "short_name": "Touch Blocker",
+  "description": "Free software blocks accidental taps and clicks while you are typing text",
   "icons": [
     {
       "src": "/favicon.ico?v=1",

@@ -1,7 +1,7 @@
 {
-  "name": "nextjs-keyboard-leds",
-  "version": "0.7.15",
-  "description": "KEYBOARD-LEDS.COM website using NextJS",
+  "name": "nextjs-touchpad-blocker",
+  "version": "0.0.1",
+  "description": "TOUCHPAD-BLOCKER.COM website using NextJS",
   "private": true,
   "author": {
     "name": "Anton Karpenko",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/karpolan/nextjs-keyboard-leds.git"
+    "url": "https://github.com/karpolan/nextjs-touchpad-blocker.git"
   },
   "scripts": {
     "build": "next build",
