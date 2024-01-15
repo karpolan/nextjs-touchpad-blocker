@@ -13,10 +13,11 @@ const PageDownload = () => {
       <Typo variant="header2">Typing on PC with sensitivity touchpad can be frustrating</Typo>
       <Typo variant="paragraph">
         Have you ever experienced your cursor unexpectedly leaping to another paragraph while typing on a notebook,
-        especially when your hand rests on or hovers over the touchpad? It's a common source of irritation for everyone!
+        especially when your hand rests on or hovers over the touchpad? It&apos;s a common source of irritation for
+        everyone!
       </Typo>
       <Typo variant="paragraph">
-        Fortunately, there's a simple solution to this annoying problem. <strong>{APP_NAME}</strong> is a compact
+        Fortunately, there&apos;s a simple solution to this annoying problem. <strong>{APP_NAME}</strong> is a compact
         program designed to address this issue. It temporarily deactivates touchpad clicks and taps when a key is
         pressed on the keyboard. This straightforward trick proves effective in preventing the cursor from
         unintentionally jumping around, offering a hassle-free typing experience.

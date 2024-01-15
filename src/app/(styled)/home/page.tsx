@@ -67,9 +67,10 @@ const HomePage = () => {
         touchpad!
       </Typo>
       <Typo variant="paragraph">
-        The key combination to disable the touchpad can vary based on the notebook's manufacturer and model. For ASUS,
-        it's <strong>Fn+F9</strong>; for Acer, it's <strong>Fn+F7</strong>; for Dell, it's <strong>Fn+F5</strong>, and
-        so forth. Nevertheless, rest assured that there is always a shortcut to disable the touchpad!
+        The key combination to disable the touchpad can vary based on the notebook&apos;s manufacturer and model. For
+        ASUS, it&apos;s <strong>Fn+F9</strong>; for Acer, it&apos;s <strong>Fn+F7</strong>; for Dell, it&apos;s{' '}
+        <strong>Fn+F5</strong>, and so forth. Nevertheless, rest assured that there is always a shortcut to disable the
+        touchpad!
       </Typo>
       <Typo variant="paragraph">
         Therefore, if your laptop is operating seamlessly, and you have all the necessary drivers installed, switching

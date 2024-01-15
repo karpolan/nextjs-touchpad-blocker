@@ -15,8 +15,8 @@ const AllSoftwarePage = async () => {
       <Typo variant="header1">{APP_NAME} Alternative Software</Typo>
       <Typo variant="paragraph">
         Numerous software products similar to <strong>{APP_NAME}</strong> are available in the market, ranging from free
-        programs to commercial utilities. The TOUCHPAD-BLOCKER.COM website provides comprehensive information about these
-        alternative software options.
+        programs to commercial utilities. The TOUCHPAD-BLOCKER.COM website provides comprehensive information about
+        these alternative software options.
       </Typo>
       <Typo variant="paragraph">
         Explore the following list of well-known alternatives to the <strong>{APP_NAME}</strong> product:

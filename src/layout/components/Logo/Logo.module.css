@@ -6,7 +6,7 @@
 
 .logo:hover {
   /* Same as .primary */
-  color: rgb(255, 85, 62);
+  color: rgb(137, 118, 253);
   text-decoration: none;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .text .primary {
-  color: rgb(255, 85, 62);
+  color: rgb(137, 118, 253);
 }
 
 /* Sizes */
