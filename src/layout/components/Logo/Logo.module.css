@@ -1,6 +1,6 @@
 .logo {
   /* Same as .dark */
-  color: rgb(28, 14, 13);
+  color: rgb(51, 44, 92);
   margin: 0.125rem;
 }
 
@@ -42,10 +42,8 @@
   width: 64px;
 }
 .small.text {
-  /* Same as .header3 */
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   font-weight: 700;
-  line-height: 2.75rem; /* 157.143% */
 }
 
 .medium.image {
@@ -53,10 +51,8 @@
   width: 96px;
 }
 .text.medium {
-  /* Same as .header3 */
-  font-size: 1.75rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  line-height: 2.75rem; /* 157.143% */
 }
 
 .large.image {
@@ -64,8 +60,6 @@
   height: 128px;
 }
 .large.text {
-  /* Same as .header2 */
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: 600;
-  line-height: 4rem; /* 133.333% */
 }

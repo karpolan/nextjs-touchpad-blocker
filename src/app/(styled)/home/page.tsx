@@ -4,7 +4,6 @@ import Video from '@/components/Video';
 import Screenshot from '@/components/Screenshot';
 import SocialMedia from '@/components/SocialMedia';
 import { APP_NAME } from '@/config';
-import { useMemo } from 'react';
 
 export const metadata = {
   alternates: {
@@ -17,7 +16,7 @@ export const metadata = {
  * @page Home
  */
 const HomePage = () => {
-  const appName = useMemo(() => <strong>{APP_NAME}</strong>, []);
+  const appName = <strong>{APP_NAME}</strong>;
 
   return (
     <Wrapper tag="article">
@@ -38,10 +37,10 @@ const HomePage = () => {
         <Screenshot />
       </Stack>
       <Typo variant="paragraph">
-        Touchpad Blocker, a Windows program, maintains simplicity while offering valuable options. Users can customize
-        the delay length in milliseconds and benefit from a configurable keyboard shortcut for toggling touch blocking
-        on and off. This feature is particularly advantageous for gaming, designing, painting, and other tasks that
-        involve active use of the touchpad or mouse.
+        {appName}, a Windows program, maintains simplicity while offering valuable options. Users can customize the
+        delay length in milliseconds and benefit from a configurable keyboard shortcut for toggling touch blocking on
+        and off. This feature is particularly advantageous for gaming, designing, painting, and other tasks that involve
+        active use of the touchpad or mouse.
       </Typo>
       <Typo variant="paragraph">
         You can freely download and use this touchpad assistant software for both personal and business purposes:

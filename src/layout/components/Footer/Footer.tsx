@@ -2,9 +2,10 @@
 import { useMemo } from 'react';
 import { Link } from '@/components';
 import { useOnMobile } from '@/hooks';
+import { APP_NAME } from '@/config';
 import Logo from '../Logo';
-import styles from './Footer.module.css';
 import SocialMedia from '@/components/SocialMedia';
+import styles from './Footer.module.css';
 
 /**
  * Renders "Footer" composition.
@@ -27,7 +28,7 @@ const Footer = () => {
         <Logo size="small" noText={logoTextHidden} />
         {onMobile && (
           <span className={styles.text}>
-            Keyboard LEDs is free software for Windows.
+            {APP_NAME} is free software for Windows.
             <br />
             Created just for fun&trade; by <Link href="https://karpolan.com">KARPOLAN</Link> in 2010.
           </span>
