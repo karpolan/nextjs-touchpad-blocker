@@ -2,7 +2,6 @@ import Image from 'next/image';
 import { APP_NAME } from '@/config';
 import { Stack, Typo, Wrapper } from '@/components';
 import Screenshot from '@/components/Screenshot';
-import Video from '@/components/Video';
 
 /**
  * Screenshots page content
@@ -12,7 +11,7 @@ const ScreenshotsPage = () => {
   return (
     <Wrapper tag="article">
       <Typo variant="header2">Screenshots</Typo>
-      <Typo variant="paragraph">Main window with settings, tray icon, floating indicator:</Typo>
+      <Typo variant="paragraph">Main program window with settings:</Typo>
       <Stack alignItems="center" padding="1rem 0">
         <Screenshot />
       </Stack>
@@ -27,11 +26,6 @@ const ScreenshotsPage = () => {
           <Image alt={`${APP_NAME} icon 24 pixels`} src="/images/icon-24x24.gif" width={24} height={24} />
           <Image alt={`${APP_NAME} icon 16 pixels`} src="/images/icon-16x16.gif" width={16} height={16} />
         </Stack>
-      </Stack>
-
-      <Typo variant="header2">Demo Video</Typo>
-      <Stack alignItems="center" padding="1rem 0">
-        <Video video="demo" />
       </Stack>
     </Wrapper>
   );

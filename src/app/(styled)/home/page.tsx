@@ -21,48 +21,60 @@ const HomePage = () => {
 
   return (
     <Wrapper tag="article">
-      <Typo variant="header1">Discover Your Caps Lock Indicator</Typo>
+      <Typo variant="header1">
+        Software designed to eliminate unintended cursor movements while typing on a laptop keyboard
+      </Typo>
       <Typo variant="paragraph">
-        In the era of sleek notebooks, netbooks, and wireless keyboards, the once-reliable indicators for Caps Lock, Num
-        Lock, and Scroll Lock seem to have quietly disappeared from the hardware scene. Fret not, for {appName} software
-        is here to reignite your awareness.
+        The touchpad, while highly useful, is often positioned directly beneath your hands as you type. Inadvertent
+        touches by your palm or wrist can displace the cursor to an unintended location!
+      </Typo>
+      <Typo variant="paragraph">
+        This is precisely why {appName} becomes essential for notebook owners who prefer using the touchpad over a mouse
+        or other pointing devices. The software enhances typing efficiency by temporarily disabling mouse events for a
+        brief period after any key is pressed, allowing users to type rapidly. Notably, the touchpad remains enabled
+        throughout.
       </Typo>
       <Stack alignItems="center" padding="1rem 0">
         <Screenshot />
       </Stack>
       <Typo variant="paragraph">
-        Our intuitive solution places a small icon in the system tray or a floating window on your screen, ensuring
-        you&apos;re always in the know about the status of your keyboard locks.
+        Touchpad Blocker, a Windows program, maintains simplicity while offering valuable options. Users can customize
+        the delay length in milliseconds and benefit from a configurable keyboard shortcut for toggling touch blocking
+        on and off. This feature is particularly advantageous for gaming, designing, painting, and other tasks that
+        involve active use of the touchpad or mouse.
       </Typo>
-      <Typo variant="header3">Features:</Typo>
-      <Typo variant="list">
-        <li>
-          <strong>Real-Time Monitoring:</strong> Instantly view the current state of Caps Lock, Num Lock, and Scroll
-          Lock.
-        </li>
-        <li>
-          <strong>Versatility:</strong> No hardware buttons? No problem. {appName} empowers users to toggle keyboard
-          locks on devices without dedicated buttons, including embedded systems, Apple keyboards, and remotely
-          connected PC.
-        </li>
-        <li>
-          <strong>Look and Feel:</strong> Tailor the appearance of your indicators to suit your preferences. Personalize
-          the color of the icon in the system tray for a seamless integration with your desktop theme. Customize the
-          size and colors of the On-Screen Display (OSD) for a visually pleasing experience.
-        </li>
+      <Typo variant="paragraph">
+        You can freely download and use this touchpad assistant software for both personal and business purposes:
       </Typo>
       <Stack alignItems="center" padding="1rem">
         <DownloadButton>Download Now - It&apos;s Free!</DownloadButton>
       </Stack>
+      <Typo variant="paragraph">Wishing you smooth and enjoyable typing experiences! 🙂</Typo>
 
-      <Typo variant="header2">Caps Lock and Num Lock indicators right on your screen</Typo>
+      <Typo variant="header2">How to Disable or Enable the Touch-pad</Typo>
       <Typo variant="paragraph">
-        Watch this brief video tutorial showcasing how to effortlessly bring Caps Lock, Num Lock, and Scroll Lock
-        indicators directly onto your screen:
+        Many individuals are still on the quest to answer this question, primarily because they prefer avoiding the
+        perusal of manuals 🙂
       </Typo>
-      <Stack alignItems="center" padding="1rem 0">
-        <Video video="demo" />
+      <Stack alignItems="center" padding="1rem 0 2rem 0">
+        <Video video="touchpad" size="16x9" />
       </Stack>
+      <Typo variant="paragraph">
+        Numerous notebooks come equipped with a dedicated hardware button designed to toggle the touchpad on and off.
+        Typically, this button is situated near the touchpad or directly below the screen. If your laptop lacks such a
+        button, inspect the pictograms on your <strong>F1-F12</strong> keys. I can assure you that there is a shortcut
+        combination involving the Function (<strong>Fn</strong>) key that facilitates the disabling and enabling of the
+        touchpad!
+      </Typo>
+      <Typo variant="paragraph">
+        The key combination to disable the touchpad can vary based on the notebook's manufacturer and model. For ASUS,
+        it's <strong>Fn+F9</strong>; for Acer, it's <strong>Fn+F7</strong>; for Dell, it's <strong>Fn+F5</strong>, and
+        so forth. Nevertheless, rest assured that there is always a shortcut to disable the touchpad!
+      </Typo>
+      <Typo variant="paragraph">
+        Therefore, if your laptop is operating seamlessly, and you have all the necessary drivers installed, switching
+        the touchpad on and off should pose no significant challenge.
+      </Typo>
       <Typo variant="header2">Share the Brilliance</Typo>
       <Typo variant="paragraph">
         If you find {appName} interesting and helpful, spread the word! Download and use our software for both personal
@@ -70,7 +82,9 @@ const HomePage = () => {
         a common delight.
       </Typo>
       <SocialMedia padding="0.5rem 0" />
-      <Typo variant="paragraph">Thank you for choosing {appName} - where visibility meets simplicity</Typo>
+      <Typo variant="paragraph">
+        Thank you for choosing {appName} - a must have utility for every PC with touch input device.
+      </Typo>
     </Wrapper>
   );
 };

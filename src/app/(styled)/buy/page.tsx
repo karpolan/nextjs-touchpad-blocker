@@ -21,7 +21,7 @@ const BuyPage = () => {
       <Stack alignItems="center" padding="1rem">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
           <input type="hidden" name="cmd" value="_s-xclick" />
-          <input type="hidden" name="hosted_button_id" value="AWYPPD263Q2N2" />
+          <input type="hidden" name="hosted_button_id" value="GPHBF4767U5YG" />
           <input
             type="image"
             src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"

@@ -3,8 +3,7 @@ import { FunctionComponent } from 'react';
 import { useOnMobile } from '@/hooks';
 
 const VIDEOS = {
-  tray: 'https://www.youtube.com/embed/Po7hH4AbWXA?si=IDtS1hy9RvVpOJeE',
-  demo: 'https://www.youtube.com/embed/A0gyDQaazf4?si=5AU6RXwh__sgmzM7',
+  touchpad: 'https://www.youtube.com/embed/RUROUAHZlto?si=PvA3lEm6mx9-B0oM7',
 };
 
 const SIZES = {
@@ -27,7 +26,7 @@ interface Props {
  * Renders iframe with Demo Video, size of iframe depends on screen size
  * @component Video
  */
-const Video: FunctionComponent<Props> = ({ size = '16x9', video = 'demo' }) => {
+const Video: FunctionComponent<Props> = ({ size = '16x9', video = 'touchpad' }) => {
   const onMobile = useOnMobile();
   const onNarrowScreen = useOnMobile(1024);
 
