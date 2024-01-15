@@ -13,8 +13,8 @@ const AllArticlesPage = async () => {
     <Wrapper tag="section">
       <Typo variant="header1">Articles relative to {APP_NAME}</Typo>
       <Typo variant="paragraph">
-        Explore the diverse collection of compelling articles and informative documents available on the website. New
-        articles are regularly added to keep you updated. Discover the most popular articles related to the{' '}
+        Delve into a varied collection of engaging articles and informative documents accessible on the website. New
+        content is consistently added to keep you informed. Explore the most popular articles pertaining to the{' '}
         <strong>{APP_NAME}</strong> software below:
       </Typo>
       <Typo variant="list" className={styles.list}>
@@ -26,9 +26,9 @@ const AllArticlesPage = async () => {
         ))}
       </Typo>
       <Typo variant="paragraph">
-        We recommend exploring the <strong>{APP_NAME}</strong> product, which complements the content of these articles
+        We suggest exploring the <strong>{APP_NAME}</strong> product, which aligns with the content of these articles
         and documents. You can <Link href="/download/">download the latest version</Link> of <strong>{APP_NAME}</strong>{' '}
-        from this website.
+        directly from this website.
       </Typo>
     </Wrapper>
   );
