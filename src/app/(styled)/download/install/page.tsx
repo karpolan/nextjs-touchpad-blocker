@@ -1,6 +1,5 @@
 import { APP_NAME } from '@/config';
 import { Link, Stack, Typo, Wrapper } from '@/components';
-import Video from '@/components/Video';
 import SocialMedia, { SOCIAL_MEDIA } from '@/components/SocialMedia/SocialMedia';
 import ListOtherSoftware from '../../download/ListOtherSoftware';
 
@@ -16,9 +15,6 @@ const InstallPage = () => {
         Congratulations on installing the <strong>{APP_NAME}</strong> software on your computer. We appreciate your
         choice in selecting our software!
       </Typo>
-      <Stack alignItems="center" padding="1rem 0">
-        <Video video="tray" size="16x9" />
-      </Stack>
 
       <Typo variant="header2">Social media</Typo>
       <Typo variant="paragraph">
