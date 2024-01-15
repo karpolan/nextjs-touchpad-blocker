@@ -27,8 +27,8 @@ const Screenshot: FunctionComponent<Props> = ({ alt, src, title, variant = 'main
   const altToRender = alt ?? `Screenshot of ${APP_NAME}`;
   const srcToRender = src ?? getSrcByVariant(variant);
   const titleToRender = title ?? `Screenshot of ${APP_NAME} software`;
-  const width = onMobile ? 320 : 400;
-  const height = onMobile ? 480 : 600;
+  const width = onMobile ? 316 : 316 * 1.5;
+  const height = onMobile ? 418 : 418 * 1.5;
   return (
     <Link href="/screenshots">
       <Image alt={altToRender} height={height} src={srcToRender} title={titleToRender} width={width} {...restOfProps} />

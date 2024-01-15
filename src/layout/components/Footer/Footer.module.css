@@ -1,6 +1,6 @@
 .footer {
   background-color: #ffffff;
-  background-color: rgba(255, 248, 242, 0.95);
+  background-color: rgba(243, 241, 254, 0.95);
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
 
@@ -85,7 +85,7 @@
 
 .desktop .menu a:focus-visible,
 .desktop .menu a:hover {
-  color: rgb(255, 85, 62);
+  color: rgb(137, 118, 253);
   /* transition: 0.3s all; */
 }
 

@@ -53,8 +53,7 @@ const Logo: FunctionComponent<Props> = ({ href, noText, size = 'medium', variant
     () =>
       noText ? null : (
         <div className={`${styles.text} ${styles[size]}`}>
-          <span className={styles.primary}>Key</span>
-          board <span className={styles.primary}>LED</span>s
+          <span className={styles.primary}>Touchpad</span> Blocker
         </div>
       ),
     [noText, size]

@@ -1,11 +1,10 @@
 import { FunctionComponent } from 'react';
-import { capitalizeAllWords } from '@/utils';
 import { Link, Typo } from '@/components';
 import { SOFTWARE } from './config';
 import { softwareToTitle, softwareToUrl } from './utils';
 import styles from './software.module.css';
 
-const DISTANCE_TO_NEXT = 9; // Number of Articles to skip to get to next link
+const DISTANCE_TO_NEXT = 10; // Number of Articles to skip to get to next link
 const NUMBER_OF_LINKS = 6; // How many links on Article page
 
 interface Props {

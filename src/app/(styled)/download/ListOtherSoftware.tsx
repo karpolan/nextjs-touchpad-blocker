@@ -14,7 +14,7 @@ const ListOtherSoftware = () => {
       </li>
       <li>
         <strong>
-          <Link href="https://touchpad-blocker.com">Touchpad Blocker</Link>
+          <Link href="https://keyboard-leds.com">Keyboard LEDs</Link>
         </strong>
       </li>
       <li>
