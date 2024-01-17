@@ -1,17 +1,28 @@
 import { Link, Typo, Wrapper } from '@/components';
+import { ContentFile, contentFileToDateString, contentFileToUrl, getContentFiles } from '../[...slug]/utils';
 
 /**
  * Content of "News" page, it was a Blog before
  * @page News
  */
-const NewsPage = () => {
+const NewsPage = async () => {
+  const contentFiles = await getContentFiles();
+  const articles: ContentFile[] = contentFiles.map((fileName: string) => {
+    const { tags, categories, content, title } = require(`@/app/(styled)/[...slug]/${fileName}`);
+    const titleWithDate = `${contentFileToDateString(fileName)} - ${title}`;
+    const href = contentFileToUrl(fileName);
+    return { tags, categories, content, title: titleWithDate, href };
+  }, []);
+
   return (
     <Wrapper tag="article">
       <Typo variant="header1">News</Typo>
       <Typo variant="list">
-        <li>
-          <Link href="/2024/01/15/new-website/">2024-01-15 - New Website</Link>
-        </li>
+        {articles.map(({ title, href }) => (
+          <li key={title}>
+            <Link href={href ?? '/news/'}>{title}</Link>
+          </li>
+        ))}
       </Typo>
     </Wrapper>
   );
