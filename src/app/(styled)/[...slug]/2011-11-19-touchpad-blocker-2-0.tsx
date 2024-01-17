@@ -11,7 +11,7 @@ export const content = (
       <strong>
         <Link href="/">{APP_NAME}</Link>
       </strong>{' '}
-      software has been released. The program blocks accidental taps over notebook's touchpad and makes typing
+      software has been released. The program blocks accidental taps over notebook&apos;s touchpad and makes typing
       comfortable.
     </Typo>
     <Typo variant="paragraph">Following changes appear in this release:</Typo>

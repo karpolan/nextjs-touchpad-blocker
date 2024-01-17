@@ -7,13 +7,14 @@ export const content = (
   <>
     <Typo variant="paragraph">
       <strong>Network Asset Tracker Pro</strong> generates a <strong>network inventory</strong> without installing
-      software on the users' PCs. It enables you to scan all the nodes of your network with just one click. Get complete
-      information about operating systems, service packs, hotfixes, hardware, product keys and versions of installed
-      software, running processes on remote PCs fast. Create reports about hardware, software and running processes on
-      all computers on your local network.
+      software on the users&apos; PCs. It enables you to scan all the nodes of your network with just one click. Get
+      complete information about operating systems, service packs, hotfixes, hardware, product keys and versions of
+      installed software, running processes on remote PCs fast. Create reports about hardware, software and running
+      processes on all computers on your local network.
     </Typo>
     <Stack alignItems="center">
       <Link href="https://www.misutilities.com/network-asset-tracker-pro/index.html" title="Hardware inventory">
+        {/* eslint-disable @next/next/no-img-element */}
         <img
           alt="Hardware inventory"
           src="https://www.misutilities.com/lo/img/NATPro_Hardware_Inventory_sm.jpg"
@@ -46,7 +47,7 @@ export const content = (
     </Typo>
     <Typo variant="header2">Software Inventory</Typo>
     <Typo variant="paragraph">
-      Network Asset Tracker Pro provides the information to assist in managing an enterprise's{' '}
+      Network Asset Tracker Pro provides the information to assist in managing an enterprise&apos;s{' '}
       <strong>installed software</strong>, implementation and license compliancy program. Software &amp; OS-related
       information:
     </Typo>
