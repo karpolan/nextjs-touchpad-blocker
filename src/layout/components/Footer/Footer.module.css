@@ -42,6 +42,8 @@
 
 .content {
   align-items: center;
+  /* Same as .dark */
+  color: rgb(51, 44, 92);
   display: flex;
   flex-direction: column;
   flex-grow: 1;
