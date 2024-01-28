@@ -1,13 +1,13 @@
+import { APP_NAME, PUBLIC_URL } from '@/config';
 import { Stack, Typo, Wrapper } from '@/components';
 import DownloadButton from '@/components/DownloadButton';
 import Video from '@/components/Video';
 import Screenshot from '@/components/Screenshot';
 import SocialMedia from '@/components/SocialMedia';
-import { APP_NAME } from '@/config';
 
 export const metadata = {
   alternates: {
-    canonical: 'https://touchpad-blocker.com', // TODO: Make CANONICAL_ROOT configurable in .env
+    canonical: PUBLIC_URL,
   },
 };
 
