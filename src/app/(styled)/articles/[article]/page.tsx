@@ -12,8 +12,3 @@ const SingleArticleRedirect: NextPage<ArticleProps> = ({ params: { article } }) 
 };
 
 export default SingleArticleRedirect;
-
-// Code for "route.tsx" file, but a build is not working for some reason :(
-// export async function GET(_: Request, { params: { article } }: ArticleProps) {
-//   return redirect(`/article/${article}`);
-// }

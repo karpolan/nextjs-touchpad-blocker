@@ -24,6 +24,6 @@ export function softwareToTitle(software: string): string {
  * @returns {Promise<string[]>} List of Software as strings
  */
 export async function getSoftwareList() {
-  const uniqueAndSortedArticles = Array.from(new Set(SOFTWARE)).sort();
-  return uniqueAndSortedArticles;
+  const uniqueAndSortedItems = Array.from(new Set(SOFTWARE)).sort();
+  return uniqueAndSortedItems;
 }

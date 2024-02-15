@@ -4,6 +4,7 @@ import type { Metadata, Viewport } from 'next';
 import { OPEN_GRAPH_DEFAULT } from '@/app/config';
 import { FONTS } from '@/layout/fonts';
 import { Advertising, Analytics, Footer, Header, MobileOrDesktop } from '@/layout/components';
+import './styled.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL(PUBLIC_URL),
@@ -26,10 +27,8 @@ const StyledLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
   return (
     <>
       <head>
-        <Suspense>
-          <Advertising />
-          <Analytics />
-        </Suspense>
+        <Advertising />
+        <Analytics />
       </head>
 
       <body className={FONTS.default.className}>
@@ -37,9 +36,7 @@ const StyledLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
         <div className="content">{children}</div>
         <Footer />
 
-        <Suspense>
-          <MobileOrDesktop />
-        </Suspense>
+        <MobileOrDesktop />
       </body>
     </>
   );
