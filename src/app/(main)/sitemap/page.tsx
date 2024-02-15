@@ -15,7 +15,7 @@ interface LinkData {
 const SitemapPage = async () => {
   const news: LinkData[] = (await getContentFiles()).map((fileName) => {
     const url = contentFileToUrl(fileName);
-    const { title } = require(`@/app/(styled)/[...slug]/${fileName}`);
+    const { title } = require(`@/app/(main)/[...slug]/${fileName}`);
     return { url, title };
   });
 

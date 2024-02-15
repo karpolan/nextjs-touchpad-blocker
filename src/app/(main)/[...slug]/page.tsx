@@ -19,7 +19,7 @@ const NewsPage: NextPage<Props> = ({ params: { slug } }) => {
   let pageData;
   const combinedSlug = slug.map((x) => x.toLowerCase()).join('-');
   try {
-    pageData = require(`@/app/(styled)/[...slug]/${combinedSlug}.tsx`);
+    pageData = require(`@/app/(main)/[...slug]/${combinedSlug}.tsx`);
   } catch (error) {
     // return notFound();
   }
