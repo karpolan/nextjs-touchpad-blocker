@@ -10,9 +10,7 @@ const UnstyledLayout: FunctionComponent<PropsWithChildren> = ({ children }) => {
   return (
     <>
       <head>
-        <Suspense>
-          <Analytics />
-        </Suspense>
+        <Analytics />
       </head>
       <body>
         <div className="content">{children}</div>

@@ -1,6 +1,6 @@
 {
   "name": "nextjs-touchpad-blocker",
-  "version": "0.4.7",
+  "version": "0.8.13",
   "description": "TOUCHPAD-BLOCKER.COM website using NextJS",
   "private": true,
   "author": {
@@ -13,8 +13,11 @@
     "url": "https://github.com/karpolan/nextjs-touchpad-blocker.git"
   },
   "scripts": {
+    "aws:cloudfront:invalidate": "aws cloudfront create-invalidation --distribution-id E3AKXQ8JJKTCAD --paths /* --profile sysadmin",
+    "aws:s3:upload": "aws s3 sync out/ s3://website-touchpad-blocker.com --delete --profile sysadmin",
     "build": "next build",
     "dev": "next dev",
+    "deploy:aws": "npm run build && npm run aws:s3:upload && npm run aws:cloudfront:invalidate",
     "format": "prettier ./ --write",
     "lint": "next lint",
     "start": "next start",
