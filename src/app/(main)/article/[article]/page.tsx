@@ -71,8 +71,8 @@ const SingleArticlePage: NextPage<ArticleProps> = async ({ params: { article } }
 };
 
 /**
- * Returns list of all mentioned categories to generate static pages.
- * @returns {Promise<{ article: string }[]>} List of all categories.
+ * Returns list of all mentioned software to generate static pages.
+ * @returns {Promise<{ article: string }[]>} List of all software.
  */
 export async function generateStaticParams() {
   const articles = await getArticleList();
@@ -80,5 +80,7 @@ export async function generateStaticParams() {
   IS_DEBUG && console.log('article.generateStaticParams()', JSON.stringify(result));
   return result;
 }
+
+export const dynamicParams = false; // No fallback: 404 if not found
 
 export default SingleArticlePage;
