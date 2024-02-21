@@ -57,4 +57,6 @@ export async function generateStaticParams() {
   return result;
 }
 
+export const dynamicParams = false; // No fallback: 404 if not found
+
 export default SingleCategoryPage;
