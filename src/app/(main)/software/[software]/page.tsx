@@ -59,8 +59,8 @@ const SingleSoftwarePage: NextPage<Props> = async ({ params: { software } }) => 
 };
 
 /**
- * Returns list of all mentioned categories to generate static pages.
- * @returns {Promise<{ software: string }[]>} List of all categories.
+ * Returns list of all mentioned software to generate static pages.
+ * @returns {Promise<{ software: string }[]>} List of all software.
  */
 export async function generateStaticParams() {
   const software = await getSoftwareList();
@@ -68,5 +68,7 @@ export async function generateStaticParams() {
   IS_DEBUG && console.log('Software.generateStaticParams()', JSON.stringify(result));
   return result;
 }
+
+export const dynamicParams = false; // No fallback: 404 if not found
 
 export default SingleSoftwarePage;

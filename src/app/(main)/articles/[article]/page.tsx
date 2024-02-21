@@ -11,4 +11,6 @@ const SingleArticleRedirect: NextPage<ArticleProps> = ({ params: { article } }) 
   return redirect(`/article/${article}`);
 };
 
+export const dynamicParams = false; // No fallback: 404 if not found
+
 export default SingleArticleRedirect;
