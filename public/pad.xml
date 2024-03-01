@@ -153,8 +153,10 @@
       <Application_XML_File_URL>https://touchpad-blocker.com/pad.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
-      <Primary_Download_URL>https://touchpad-blocker.com/files/touchpad-blocker.exe</Primary_Download_URL>
-      <Secondary_Download_URL>https://touchpad-blocker.com/files/touchpad-blocker.zip</Secondary_Download_URL>
+      <Primary_Download_URL>
+        https://public-file-storage.s3.us-east-2.amazonaws.com/software/touchpad-blocker.exe</Primary_Download_URL>
+      <Secondary_Download_URL>
+        https://public-file-storage.s3.us-east-2.amazonaws.com/software/touchpad-blocker.zip</Secondary_Download_URL>
       <Additional_Download_URL_1></Additional_Download_URL_1>
       <Additional_Download_URL_2></Additional_Download_URL_2>
     </Download_URLs>

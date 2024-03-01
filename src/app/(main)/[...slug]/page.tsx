@@ -5,10 +5,12 @@ import { Typo, Wrapper } from '@/components';
 import { CategoryGroup, TagGroup } from '@/components/Taxonomy';
 import { contentFileToUrl, getContentFiles } from './utils';
 
+interface Params {
+  slug: string[];
+}
+
 interface Props {
-  params: {
-    slug: string[];
-  };
+  params: Params;
 }
 
 /**
@@ -41,9 +43,9 @@ const NewsPage: NextPage<Props> = ({ params: { slug } }) => {
 
 /**
  * Returns list of all news/articles to generate static pages.
- * @returns {Promise<{ slug: string[] }[]>} List of all news/articles.
+ * @returns {Promise<Params[]>} List of all news/articles.
  */
-export async function generateStaticParams() {
+export async function generateStaticParams(): Promise<Params[]> {
   const files = await getContentFiles();
   const result = files.map((fileName) => {
     const slugAsArray = contentFileToUrl(fileName).split('/').filter(Boolean);

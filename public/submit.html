@@ -2161,7 +2161,8 @@
             if (last == 'number') hookPt.alt[pms[optPm - 1 - pmStart]] = fnRef;
           } else if (hookType == FCHAIN) {
             hookPt = hookPt.chain;
-            if (typeof fnRef == 'object') hookPt = hookPt.concat(fnRef); // add other functions
+            if (typeof fnRef == 'object')
+              hookPt = hookPt.concat(fnRef); // add other functions
             else hookPt[hookPt.length++] = fnRef;
           }
 

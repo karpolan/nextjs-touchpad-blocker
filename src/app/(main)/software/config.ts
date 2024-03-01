@@ -1,4 +1,5 @@
 export const SOFTWARE: string[] = [
+  'ASUS Smart Gesture',
   'Auto Mute',
   'AutoHotkey_L',
 
@@ -13,15 +14,16 @@ export const SOFTWARE: string[] = [
   'Remote Mouse for Windows',
 
   'Sea Battle',
+  'Smart Gesture',
   'Splashtop Touchpad',
   'Synaptics Touchpad',
 
   'TouchFreeze',
+  'Touch Mouse',
   'TouchPad',
   'TouchpadPal',
   'Touchpad Elite',
   'Touch Freeze',
-
   'TypingClub',
 
   'UsbMouse',

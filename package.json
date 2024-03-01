@@ -1,6 +1,6 @@
 {
   "name": "nextjs-touchpad-blocker",
-  "version": "0.9.15",
+  "version": "1.0.17",
   "description": "TOUCHPAD-BLOCKER.COM website using NextJS",
   "private": true,
   "author": {
@@ -18,7 +18,7 @@
     "build": "next build",
     "dev": "next dev",
     "deploy:aws": "npm run build && npm run aws:s3:upload && npm run aws:cloudfront:invalidate",
-    "firebase:deploy": "firebase deploy --only hosting",
+    "deploy:firebase": "npm run build && firebase deploy --only hosting",
     "format": "prettier ./ --write",
     "lint": "next lint",
     "start": "next start",
